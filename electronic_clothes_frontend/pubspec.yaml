@@ -1,0 +1,54 @@
+name: electronic_clothes_frontend
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  flutter_pdfview: ^1.3.2
+  http: ^1.2.2
+  flutter_spinkit: ^5.2.1
+  path_provider: ^2.1.4
+  syncfusion_flutter_pdfviewer: ^26.2.7
+  lottie: ^3.1.2
+  downloadsfolder: ^1.1.0
+  shimmer: ^3.0.0
+  image_picker: ^1.1.2
+  syncfusion_flutter_datepicker: ^26.2.11
+  numberpicker: ^2.1.2
+  flutter_holo_date_picker: ^1.1.3
+  nfc_manager: ^3.5.0
+  infinite_carousel: ^1.1.1
+  overlapped_carousel: ^1.0.2
+  dotted_border: ^2.1.0
+  file_picker: ^8.1.2
+  flutter_secure_storage: ^4.2.1
+
+dev_dependencies: 
+  flutter_lints: 4.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+
+    - family: vegan
+      fonts:
+        - asset: assets/fonts/Vegan.ttf
+
